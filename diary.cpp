@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stdlib.h>
 
+#include "diary.h"
+
 void diary()
 {
 	system( "clear" );

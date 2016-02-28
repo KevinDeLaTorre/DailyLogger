@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stdlib.h>
 
+#include "database.h"
+
 void databaseManager()
 {
 	system( "clear" );
