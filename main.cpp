@@ -5,11 +5,11 @@
 #include <stdlib.h>
 
 #include "diary.h"
+#include "database.h"
 
 void initDatabaseManager()
 {
-	system( "clear" );
-	std::cout << "DATABASE MANAGER" << std::endl;
+	databaseManager();
 }
 
 int main()
