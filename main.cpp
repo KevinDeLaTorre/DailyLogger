@@ -7,16 +7,11 @@
 #include "diary.h"
 #include "database.h"
 
-void initDatabaseManager()
-{
-	databaseManager();
-}
-
 int main()
 {
-	char choice;
+	int choice;
 
-	while ( choice < 49 || choice > 51 ) // If choice is not valid loop.
+	while ( choice < 1 || choice > 3 ) // If choice is not valid loop.
 	{
 		system( "clear" );
 		std::cout << "Welcome to your daily logger, what would you like to do?" << std::endl;
@@ -28,13 +23,13 @@ int main()
 	}
 
 	switch ( choice ) {
-		case '1':
+		case 1:
 			diary();
 			break;
-		case '2':
-			initDatabaseManager();
+		case 2:
+			databaseManager();
 			break;
-		case '3':
+		case 3:
 			system( "clear" );
 			break;
 	}

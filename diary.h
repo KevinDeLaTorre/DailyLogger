@@ -2,5 +2,6 @@
 #define DIARY_H
 
 void diary();
+void diaryHeader();
 
 #endif

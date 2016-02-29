@@ -18,7 +18,7 @@ database.o : database.cpp database.h
 	@g++ -c database.cpp
 	@echo done
 add:
-	@$(MAKE) clean
+	@$(MAKE) -s clean 
 	@echo -n Adding files to git...
 	@git add $(AFILES) 
 	@echo done
